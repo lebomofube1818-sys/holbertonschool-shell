@@ -1,0 +1,7 @@
+#!/bin/bash
+# 5-listfilesdigitonly
+# Display current directory contents in long format
+# Show numeric user and group IDs
+# Include hidden files
+
+ls -lan 
