@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f /tmp/iamafile ]; then
+file /tmp/iamafile
+else
+echo "/tmp/iamafile does not exist"
+fi
