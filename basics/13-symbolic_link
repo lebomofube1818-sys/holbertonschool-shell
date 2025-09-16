@@ -1,0 +1,7 @@
+#!/bin/bash
+# Remove existing link if it exists
+[ -L __ls__ ] && rm __ls__
+
+# Create the symbolic link
+ln -s /bin/ls __ls__
+
