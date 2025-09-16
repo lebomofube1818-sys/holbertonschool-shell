@@ -1,0 +1,7 @@
+#!/bin/bash
+shopt -s nullglob   
+# Avoid errors if no files match
+for file in  [A-Z]*; do
+mv "$file" /tmp/u
+done
+
