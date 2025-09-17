@@ -1,3 +1,5 @@
 #!/bin/bash
-# Change to the previous working directory
+# 10-back
+# Changes the working directory to the previous one
+
 cd ~
