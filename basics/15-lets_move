@@ -1,7 +1,6 @@
 #!/bin/bash
-shopt -s nullglob   
-# Avoid errors if no files match
-for file in  [A-Z]*; do
-mv "$file" /tmp/u
-done
+# 15-lets_move 
+# Moves all files starting with an uppercase letter to /tmp/u
+
+mv [A-Z]* /tmp/u
 
