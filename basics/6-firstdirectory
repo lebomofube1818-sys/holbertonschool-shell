@@ -1,5 +1,2 @@
 #!/bin/bash
-# 6-firstdirectory
-# Creates a directory named my_first_directory in /tmp/
-
-mkdir -p /tmp/my_first_directory 
+mkdir /tmp/my_first_directory 
