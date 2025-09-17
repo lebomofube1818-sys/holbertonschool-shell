@@ -1,6 +1,5 @@
 #!/bin/bash
-if [ -f /tmp/iamafile ]; then
+# 12-file_type
+# Prints the type of the file /tmp/iamafile
+
 file /tmp/iamafile
-else
-echo "/tmp/iamafile does not exist"
-fi
