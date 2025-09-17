@@ -1,7 +1,6 @@
 #!/bin/bash
-# Remove existing link if it exists
-[ -L __ls__ ] && rm __ls__
+# 13-symbolic_link
+# Creates a symbolic link named __ls__ to /bin/ls in the current directory
 
-# Create the symbolic link
-ln -s /bin/ls __ls__
+ln -s /bin/ls __ls
 
