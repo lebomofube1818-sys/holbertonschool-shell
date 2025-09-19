@@ -1,6 +1,5 @@
 #!/bin/bash
-# 15-lets_move 
+# 15-lets_move
 # Moves all files starting with an uppercase letter to /tmp/u
-
-mv [A-Z]* /tmp/u
+mv [A-Z]* /tmp/u 2>/dev/null
 
