@@ -1,6 +1,5 @@
 #!/bin/bash
 # 13-symbolic_link
-# Creates a symbolic link named __ls__ to /bin/ls in the current directory
-
-ln -s /bin/ls __ls
+# Create a symbolic link named __ls__ to bin /bin/ls in the current directory
+ln -s /bin/ls __ls__
 
