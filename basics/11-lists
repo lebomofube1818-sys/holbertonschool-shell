@@ -1,6 +1,6 @@
 #!/bin/bash
-# 11-lists
-# Lists all files (including hidden) in current, parent, and /boot directories
-ls -la .
+# 11-lists: lists all files (including hidden) in current, parent, and /boot directories in long format
+
+ls -la
 ls -la ..
 ls -la /boot
