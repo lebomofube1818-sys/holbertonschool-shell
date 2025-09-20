@@ -1,5 +1,2 @@
 #!/bin/bash
-# 12-file_type
-# Prints the type of the file /tmp/iamafile
-
 file /tmp/iamafile
