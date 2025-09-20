@@ -1,6 +1,2 @@
 #!/bin/bash
-# 16-clean_emacs
-# Deletes all files in the current directory ending with ~ in the current directory
-
 rm -f *~
-
