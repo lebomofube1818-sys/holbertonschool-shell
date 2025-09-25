@@ -1,6 +1,2 @@
 #!/bin/bash
-# 14-copy_html
-# Copies all HTML files to the current parent directory if they dont exist there or are newer
-
 cp -u *.html ..
-
